@@ -1,0 +1,27 @@
+MNGTranslator
+by YNOP (ynop@acm.org)
+
+Translator to support MNG/JNG files via the TranKit for BeOS.
+
+Notes:
+	You must have libmng.so installed on your system... it can be found here.
+	http://www.bebits.com/app/2292
+
+	Due to the fact that zlib.so is a clever little lib that it seem is hard to find and sneeky.  And it seems that there may be more than one of them out there.. I am includeing the version I linked agains.
+Just drag this into the config/lib folder and your good to go.
+
+Ver 1.2:
+	Mostly rearanged the lib stuff, should be easyer to install now
+	Fixed some of the issuse with loading animatioins.
+Ver 1.1:
+	Fixed up the code some to make it nicer
+	Added better support for MNG (animated) files
+	Nolonger takes control of the PNG translation already in BeOS
+	Faster Identify() method
+	I now have a clear understanding of the MNG lib :)
+Ver 1.0:
+ 	Translates MNG/JNG/PNG files
+	Does not write
+	Takes control from old PNG trans but works great.
+
+
